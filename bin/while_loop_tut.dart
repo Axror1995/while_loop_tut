@@ -1,7 +1,11 @@
 void main() {
   String s = 'code';
-  print(s[0]);
-  print(s[1]);
-  print(s[2]);
-  print(s[3]);
+  int i = 0;
+  print(s[i]);
+  i += 1;
+  print(s[i]);
+  i += 1;
+  print(s[i]);
+  i += 1;
+  print(s[i]);
 }
